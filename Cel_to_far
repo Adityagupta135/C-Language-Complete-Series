@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+
+    float cel;
+    float far;
+
+    printf("Enter the temperature in cel");
+    scanf("%f",&cel );
+    printf("The temp in far. is %f ", 1.8*cel + 32);
+    return 0;
+}
